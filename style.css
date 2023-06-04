@@ -5,6 +5,11 @@
     --box-shadow: 0 8px 22px rgba(0, 0, 0, 0.18);
     --text-shadow: -3px 1px 6px rgba(0, 0, 0, 0.33);
 }
+html{
+    scroll-behavior: smooth;
+    scroll-padding-top: 100px;
+}
+
 
 body {
     margin: 0;
