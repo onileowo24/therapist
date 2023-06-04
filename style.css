@@ -23,6 +23,9 @@ body {
     background-position: center;
     background-attachment: fixed;
 }
+#tog{
+    color: darkcyan;
+}
 
 #sub-hero {
     height: 550px;
@@ -321,6 +324,7 @@ body {
     height: 50px;
     font-size: 18px;
     font-weight: 500;
+    padding: 10px;
 }
 
 #btn4 {
@@ -406,6 +410,7 @@ form input {
     font-size: 16px;
     border-radius: 10px;
     box-shadow: 0px 5px 5px -6px;
+    padding: 10px;
 }
 
 form textarea {
@@ -415,6 +420,7 @@ form textarea {
     resize: none;
     box-shadow: 0px 5px 5px -6px black;
     height: 150px;
+    padding: 10px;
 }
 
 .social-icon i {
@@ -467,6 +473,10 @@ footer {
 }
 
 @media (max-width:768px) {
+    #hero {
+        height: 100vh;
+    }
+    
     .brands {
         display: none;
     }
